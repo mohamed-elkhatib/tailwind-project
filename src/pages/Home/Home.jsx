@@ -1,4 +1,4 @@
-import React from "react";
+
 import avater from "../../assets/avataaars.svg";
 import "./Home.css"
 export default function Home() {
