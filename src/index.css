@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold uppercase;
+  }
+  h1 {
+    @apply text-4xl;
+  }
+  h2 {
+    @apply text-3xl;
+  }
+  h3 {
+    @apply text-xl;
+  }
+  h4 {
+    @apply text-lg;
+  }
+  h5 {
+    @apply text-base;
+  }
+  h6 {
+    @apply text-sm;
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply mx-auto px-4  md:px-6  lg:px-8;
+  }
+}
+
+@theme{
+    --color-primary: #2C3E50;
+    --color-secondary:#1ABC9C;
+    --color-footerColor: #1A252F;
+}
+
+
+.hamada{
+  background-color: var(--color-secondary);
+  border-radius: 0.45rem;
+  transition: all 0.25s;
+}
