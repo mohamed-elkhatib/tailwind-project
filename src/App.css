@@ -1,0 +1,17 @@
+.star-icon::before,
+.star-icon::after{
+    content: "";
+    position: absolute;
+    top:50%;
+    width: 6.25rem;
+    height: 5px;
+    background-color: white;
+
+}
+
+.star-icon::before{
+    left: -120px;
+}
+.star-icon::after{
+    right: -120px;
+}
